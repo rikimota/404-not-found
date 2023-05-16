@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header h2 {
+    padding: 40px 77px;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08rem;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.texto {
+    margin-left: 100px;
+}
+
+.texto h2 {
+    height: 190px;
+    width: 586px;
+    font-family: 'Space Mono', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.texto p {
+    width: 381px;
+    height: 85px;
+    padding-top: 36px;
+    font-family: 'Space Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+}
+
+img {
+    width: 540px;
+}
+
+input {
+    width: 216px;
+    height: 68px;
+    margin-top: 110px;
+    background: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+
+footer , a {
+    padding-bottom: 24px;
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #9b9a9a;
+}
+
+@media only screen and (max-width: 1170px) {
+
+    header h2 {
+        padding: 20px 24px;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto {
+        margin-left: 24px;
+    }
+
+    .texto h2 {
+        height: 142px;
+        width: 350px;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    
+    .texto p {
+        height: 81px;
+        width: 328px;
+        padding-top: 30px;
+        font-size: 18px;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+    }
+
+    input {
+        margin-top: 90px;
+    }
+
+    img{
+        width: 328px;
+    }
+
+    footer , a {
+        font-size: 16px;
+    }
+
+}
