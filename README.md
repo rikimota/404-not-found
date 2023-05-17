@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://rikimota.github.io/404-not-found/" target="_blank>
+    <a href="https://rikimota.github.io/404-not-found/" target="_blank">
       Solução
     </a>
     <span> | </span>
