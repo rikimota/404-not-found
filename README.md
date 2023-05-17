@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://github.com/rikimota/404-not-found/blob/main/assets/web.png">
       Demo
     </a>
     <span> | </span>
-    <a href="https://rikimota.github.io/404-not-found/" target="_blank">
+    <a href="https://rikimota.github.io/404-not-found/">
       Solução
     </a>
     <span> | </span>
